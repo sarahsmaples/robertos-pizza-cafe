@@ -11,7 +11,7 @@ title: Home
         <h1 class="max-w-2xl mb-4 text-4xl font-heading tracking-tight leading-none md:text-5xl xl:text-6xl text-burgundy hero-animate-1">Pizza, Pasta & Everything In Between</h1>
         <p class="max-w-2xl mb-6 font-light text-burgundy lg:mb-8 md:text-lg lg:text-xl hero-animate-2">Belleville's Home for Authentic Italian Flavor</p>
         <a href="https://88restaurants.com/1151/online_orders/new" class="bg-cream text-burgundy font-semibold px-5 py-3 rounded-full border-2 border-burgundy hover:bg-white btn-animate hero-animate-3 mr-3">Order Now</a>
-        <a href="/menu/" class="inline-flex items-center text-burgundy font-medium hover:text-tomato link-animate hero-animate-3">
+        <a href="{{ '/menu/' | url }}" class="inline-flex items-center text-burgundy font-medium hover:text-tomato link-animate hero-animate-3">
                 View Menu
                 <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
@@ -19,21 +19,21 @@ title: Home
         </a>
       </div>
       <div class="hidden min-[787px]:mt-0 min-[787px]:col-span-5 min-[787px]:flex">
-        <img src="/assets/images/pizza.png" alt="Delicious pizza" class="hero-animate-image">
+        <img src="{{ '/assets/images/pizza.png' | url }}" alt="Delicious pizza" class="hero-animate-image">
       </div>
     </div>
     <div class="min-[787px]:hidden flex justify-center px-4 pb-8">
-      <img src="/assets/images/pizza.png" alt="Delicious pizza" class="max-w-xs hero-animate-image">
+      <img src="{{ '/assets/images/pizza.png' | url }}" alt="Delicious pizza" class="max-w-xs hero-animate-image">
     </div>
   </section>
 
   <section id="about" class="bg-cream">
     <div class="flex flex-col md:grid gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid-cols-2 sm:py-16 lg:px-6">
-      <img class="w-full order-2 md:order-1 scroll-animate animate-left" src="/assets/images/photo-blobs.png" alt="Roberto's Pizza Cafe food">
+      <img class="w-full order-2 md:order-1 scroll-animate animate-left" src="{{ '/assets/images/photo-blobs.png' | url }}" alt="Roberto's Pizza Cafe food">
       <div class="mt-4 md:mt-0 order-1 md:order-2 scroll-animate animate-right">
         <h2 class="mb-4 text-4xl tracking-tight font-heading text-burgundy">Bringing Italy to Belleville</h2>
         <p class="mb-6 font-light text-burgundy md:text-lg">Welcome to Roberto's Pizza Café, where authentic Italian flavors meet hometown hospitality. Located in the heart of Belleville, we've built our reputation on fresh ingredients, family recipes, and a commitment to quality that you can taste in every bite. Whether you're grabbing a quick slice, enjoying a family dinner, or catering your next event, we're here to make every meal memorable. Come visit us at 179 Franklin Street – we can't wait to serve you!</p>
-        <a href="/menu/" class="inline-flex items-center text-burgundy font-medium hover:text-tomato link-animate">
+        <a href="{{ '/menu/' | url }}" class="inline-flex items-center text-burgundy font-medium hover:text-tomato link-animate">
                 View Menu
                 <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>

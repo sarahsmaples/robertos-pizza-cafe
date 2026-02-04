@@ -6,7 +6,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/favicons");
   eleventyConfig.addPassthroughCopy("src/assets/fonts");
 
+  // Get path prefix from environment variable (for GitHub Pages)
+  const pathPrefix = process.env.ELEVENTY_PATH_PREFIX || "/";
+
   return {
+    pathPrefix: pathPrefix,
     dir: {
       input: "src",
       includes: "_includes",

@@ -1,21 +1,21 @@
 <nav id="main-nav" class="bg-tomato sticky top-0 z-50 transition-all duration-300">
   <div class="max-w-screen-xl grid grid-cols-3 items-center mx-auto px-4 py-4 transition-all duration-300">
-    <a href="/" class="flex items-center group">
-      <img src="/assets/images/logo.png" class="h-16 transition-transform duration-300 group-hover:scale-110" alt="Roberto's Pizza Cafe"/>
+    <a href="{{ '/' | url }}" class="flex items-center group">
+      <img src="{{ '/assets/images/logo.png' | url }}" class="h-16 transition-transform duration-300 group-hover:scale-110" alt="Roberto's Pizza Cafe"/>
     </a>
     <div class="hidden md:flex justify-center" id="navbar-default">
       <ul class="font-medium flex flex-row space-x-8">
         <li>
-          <a href="/" class="text-cheese font-semibold hover:text-cream transition-colors duration-300">Home</a>
+          <a href="{{ '/' | url }}" class="text-cheese font-semibold hover:text-cream transition-colors duration-300">Home</a>
         </li>
         <li>
-          <a href="/menu/" class="text-cream hover:text-cheese transition-colors duration-300">Menu</a>
+          <a href="{{ '/menu/' | url }}" class="text-cream hover:text-cheese transition-colors duration-300">Menu</a>
         </li>
         <li>
-          <a href="/#about" class="text-cream hover:text-cheese transition-colors duration-300">About</a>
+          <a href="{{ '/' | url }}#about" class="text-cream hover:text-cheese transition-colors duration-300">About</a>
         </li>
         <li>
-          <a href="/#contact" class="text-cream hover:text-cheese transition-colors duration-300">Contact</a>
+          <a href="{{ '/' | url }}#contact" class="text-cream hover:text-cheese transition-colors duration-300">Contact</a>
         </li>
       </ul>
     </div>
