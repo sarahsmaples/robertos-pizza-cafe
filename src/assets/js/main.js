@@ -9,6 +9,42 @@ window.addEventListener('scroll', () => {
   }
 });
 
+// Mobile menu toggle with slide animation
+const menuButton = document.querySelector('[data-collapse-toggle="navbar-default"]');
+const mobileMenu = document.getElementById('navbar-default');
+
+if (menuButton && mobileMenu) {
+  const isMobile = () => window.innerWidth < 768;
+
+  const setupMobileMenu = () => {
+    if (isMobile()) {
+      mobileMenu.style.overflow = 'hidden';
+      mobileMenu.style.transition = 'max-height 0.3s ease-out';
+      if (menuButton.getAttribute('aria-expanded') !== 'true') {
+        mobileMenu.style.maxHeight = '0';
+      }
+    } else {
+      mobileMenu.style.overflow = '';
+      mobileMenu.style.transition = '';
+      mobileMenu.style.maxHeight = '';
+    }
+  };
+
+  setupMobileMenu();
+  window.addEventListener('resize', setupMobileMenu);
+
+  menuButton.addEventListener('click', () => {
+    const isExpanded = menuButton.getAttribute('aria-expanded') === 'true';
+    menuButton.setAttribute('aria-expanded', !isExpanded);
+
+    if (isExpanded) {
+      mobileMenu.style.maxHeight = '0';
+    } else {
+      mobileMenu.style.maxHeight = mobileMenu.scrollHeight + 'px';
+    }
+  });
+}
+
 // Scroll-triggered animations using Intersection Observer
 const scrollAnimateElements = document.querySelectorAll('.scroll-animate');
 
