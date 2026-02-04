@@ -1,0 +1,45 @@
+<footer class="bg-tomato">
+  <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+    <div class="grid md:grid-cols-4 gap-8 mb-8">
+
+      <div>
+        <a href="/" class="flex items-center group">
+          <img src="/assets/images/logo.png" class="h-16 transition-transform duration-300 group-hover:scale-110" alt="Roberto's Pizza Cafe"/>
+        </a>
+      </div>
+
+      <div>
+        <h3 class="text-lg font-heading text-cheese mb-3">Hours</h3>
+        <div class="text-cream text-sm space-y-1">
+          <p class="font-semibold">Sunday - Thursday</p>
+          <p>11:00 AM - 8:00 PM</p>
+          <p class="font-semibold mt-2">Friday - Saturday</p>
+          <p>11:00 AM - 9:00 PM</p>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="text-lg font-heading text-cheese mb-3">Contact</h3>
+        <a href="tel:973-844-1900" class="text-cream hover:text-cheese text-sm font-semibold transition-colors duration-300">973-844-1900</a>
+      </div>
+
+      <div>
+        <h3 class="text-lg font-heading text-cheese mb-3">Location</h3>
+        <address class="text-cream text-sm not-italic mb-2">
+          179 Franklin Street<br>
+          Belleville, NJ 07109
+        </address>
+        <a href="https://maps.app.goo.gl/G6joxnWVAkDy8EZX6" target="_blank" class="inline-flex items-center text-cream text-sm font-medium hover:text-cheese transition-colors duration-300 link-animate">
+          Get Directions
+          <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+    <hr class="my-6 border-cream/30 sm:mx-auto"/>
+    <span class="block text-sm text-cream sm:text-center">© {{ global.currentYear }}
+      {{ client.name }}. All Rights Reserved.</span>
+  </div>
+</footer>

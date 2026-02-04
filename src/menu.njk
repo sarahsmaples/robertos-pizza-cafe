@@ -1,0 +1,22 @@
+---
+title: Menu
+---
+
+{% extends "layouts/base.njk" %}
+
+{% block head %}
+<style>
+  body {
+    overflow: hidden;
+  }
+  .menu-iframe {
+    width: 100%;
+    height: calc(100vh - 88px);
+    border: none;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<iframe src="https://88restaurants.com/1151/online_orders/frame" class="menu-iframe"></iframe>
+{% endblock %}

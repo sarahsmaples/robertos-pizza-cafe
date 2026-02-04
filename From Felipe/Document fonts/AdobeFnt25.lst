@@ -1,0 +1,176 @@
+%!Adobe-FontList 1.25
+%Locale:0xc0a
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaLTStd-BlkCond
+FamilyName:Helvetica LT Std
+StyleName:Black Condensed
+FullName:Helvetica LT Std Black Condensed
+MenuName:Helvetica LT Std Cond Blk
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\YANBA\01.21\Carpeta Roberto's Pizza Cafe Belleville Takeout Menu 11x17 Trifold w Coupons YANBA 01.21.2026\Document fonts\HelveticaLTStd-BlkCond.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:29640
+FileModTime:1260106998
+WeightClass:900
+WidthClass:3
+AngleClass:0
+DesignSize:120
+NameArray:0,Mac,18,Helvetica LT Std Cond Blk
+NameArray:0,Mac,4,Helvetica LT Std Black Condensed
+NameArray:0,Win,1,Helvetica LT Std Cond Blk
+NameArray:0,Win,16,Helvetica LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaLTStd-BoldCondObl
+FamilyName:Helvetica LT Std
+StyleName:Bold Condensed Oblique
+FullName:Helvetica LT Std Bold Condensed Oblique
+MenuName:Helvetica LT Std Cond
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:E:\YANBA\01.21\Carpeta Roberto's Pizza Cafe Belleville Takeout Menu 11x17 Trifold w Coupons YANBA 01.21.2026\Document fonts\HelveticaLTStd-BoldCondObl.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:32244
+FileModTime:1507473908
+WeightClass:700
+WidthClass:3
+AngleClass:1
+NameArray:0,Mac,18,Helvetica LT Std Cond Bold Obl
+NameArray:0,Mac,4,Helvetica LT Std Bold Condensed Oblique
+NameArray:0,Win,1,Helvetica LT Std Cond
+NameArray:0,Win,16,Helvetica LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaLTStd-BoldObl
+FamilyName:Helvetica LT Std
+StyleName:Bold Oblique
+FullName:Helvetica LT Std Bold Oblique
+MenuName:Helvetica LT Std
+StyleBits:3
+FamilyNameNative:Helvetica LT Std
+StyleNameNative:Bold Oblique
+FullNameNative:Helvetica LT Std Bold Oblique
+WritingScript:Cyrillic
+OutlineFileName:E:\YANBA\01.21\Carpeta Roberto's Pizza Cafe Belleville Takeout Menu 11x17 Trifold w Coupons YANBA 01.21.2026\Document fonts\HelveticaLTStd-BoldObl.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:45316
+FileModTime:1052792266
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,18,Helvetica LT Std Bold Obl
+NameArray:0,Mac,4,Helvetica LT Std Bold Oblique
+NameArray:0,Win,1,Helvetica LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaLTStd-Cond
+FamilyName:Helvetica LT Std
+StyleName:Condensed
+FullName:Helvetica LT Std Condensed
+MenuName:Helvetica LT Std Cond
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\YANBA\01.21\Carpeta Roberto's Pizza Cafe Belleville Takeout Menu 11x17 Trifold w Coupons YANBA 01.21.2026\Document fonts\HelveticaLTStd-Cond.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:29240
+FileModTime:1474087650
+WeightClass:400
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,18,Helvetica LT Std Cond
+NameArray:0,Mac,4,Helvetica LT Std Condensed
+NameArray:0,Win,1,Helvetica LT Std Cond
+NameArray:0,Win,16,Helvetica LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaLTStd-Obl
+FamilyName:Helvetica LT Std
+StyleName:Oblique
+FullName:Helvetica LT Std Oblique
+MenuName:Helvetica LT Std
+StyleBits:1
+FamilyNameNative:Helvetica LT Std
+StyleNameNative:Oblique
+FullNameNative:Helvetica LT Std Oblique
+WritingScript:Cyrillic
+OutlineFileName:E:\YANBA\01.21\Carpeta Roberto's Pizza Cafe Belleville Takeout Menu 11x17 Trifold w Coupons YANBA 01.21.2026\Document fonts\HelveticaLTStd-Obl.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:46228
+FileModTime:1507481126
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,18,Helvetica LT Std Obl
+NameArray:0,Mac,4,Helvetica LT Std Oblique
+NameArray:0,Win,1,Helvetica LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaLTStd-CondObl
+FamilyName:Helvetica LT Std
+StyleName:Condensed Oblique
+FullName:Helvetica LT Std Condensed Oblique
+MenuName:Helvetica LT Std Cond
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\YANBA\01.21\Carpeta Roberto's Pizza Cafe Belleville Takeout Menu 11x17 Trifold w Coupons YANBA 01.21.2026\Document fonts\helvetica-lt-std-condensed-oblique.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:30236
+FileModTime:1480061522
+WeightClass:400
+WidthClass:3
+AngleClass:1
+NameArray:0,Mac,18,Helvetica LT Std Cond Obl
+NameArray:0,Mac,4,Helvetica LT Std Condensed Oblique
+NameArray:0,Win,1,Helvetica LT Std Cond
+NameArray:0,Win,16,Helvetica LT Std
+%EndFont
+
