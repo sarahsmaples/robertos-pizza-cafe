@@ -818,7 +818,7 @@ html {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('/assets/images/triangles3.png');
+  background-image: url('../images/triangles3.png');
   background-size: cover;
   opacity: 1;
   pointer-events: none;
