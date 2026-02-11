@@ -59,4 +59,23 @@ title: Home
       </div>
     </div>
   </section>
+
+  <!-- popup js -->
+  <script id="marketing-popup-script" data-restaurant-id="1151" src="https://88restaurants.com/uploads/popup.js"></script>
+
+  <!-- sticky footer CTA -->
+  <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+      try {
+        const response = await fetch(
+          "https://88restaurants.com/restaurants/1151/online_orders/discount_button"
+        );
+        const html = await response.text();
+        document.body.insertAdjacentHTML("beforeend", html);
+      } catch (error) {
+        console.error("Error fetching button:", error);
+      }
+    });
+  </script>
+  <!-- / sticky footer CTA -->
 {% endblock %}
